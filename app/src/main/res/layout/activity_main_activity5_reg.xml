@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5_reg"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="85dp"
+                android:layout_gravity="top"
+                android:paddingStart="20dp"
+                android:paddingTop="40dp"
+                app:srcCompat="@drawable/hello" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Добро пожаловать!"
+                android:layout_gravity="top"
+                android:paddingStart="15dp"
+                android:paddingTop="47dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Войдите, чтобы пользоваться функциями приложения"
+                android:paddingStart="25dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="2sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вход по E-mail"
+                android:paddingStart="25dp"
+                android:paddingTop="50dp"
+                android:textColor="#7E7E9A"
+                />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:background="@drawable/bg"
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableTint="#000000"
+                android:ems="10"
+                android:hint="example@mail.com"
+                android:inputType="textEmailAddress"
+                android:textColor="#79000000"
+                android:textSize="14sp"
+                android:layout_gravity="center"/>
+
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_nr"
+                android:layout_marginTop="150dp"
+                android:layout_gravity="center"
+                android:text="Далее"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Или войдите с помощью "
+                android:textAlignment="center"
+                android:paddingTop="110dp"
+                android:layout_gravity="center"
+                android:textColor="#ADADAF"
+                />
+
+            <Button
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yandex"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Войти с Яндекс"
+                android:textColor="@color/black"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
