@@ -21,8 +21,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Создание карты
-                пацента"
+                android:text="Создание карты пацента"
                 android:gravity="start"
                 android:textColor="@color/black"
                 android:textSize="26dp"
@@ -116,6 +115,7 @@
             </EditText>
 
             <Spinner
+                android:paddingStart="5dp"
                 android:background="@drawable/bg_bio"
                 android:layout_marginTop="30dp"
                 android:layout_marginStart="10dp"

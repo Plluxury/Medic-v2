@@ -32,7 +32,7 @@ public class MainActivity8_bio extends AppCompatActivity{
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8_bio.this,MainActivity.class);
+                Intent intent = new Intent(MainActivity8_bio.this,MainActivity9.class);
                 startActivity(intent);
             }
         });
@@ -169,7 +169,7 @@ public class MainActivity8_bio extends AppCompatActivity{
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8_bio.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity8_bio.this, MainActivity9.class);
                 startActivity(intent);
             }
         });
